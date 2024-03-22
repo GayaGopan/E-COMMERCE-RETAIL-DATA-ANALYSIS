@@ -7,3 +7,9 @@
 # Tools Used : SQL Server, SSMS
 
 # Datasets: Customers.xlsx,Transactions.xlsx,prod_cat_info.xlsx
+
+# Customers: The file contains the information about customers in the E-Commerce Retail Dataset. It includes variables such as customer_id, DOB, Gender and city_code.The schema of the dataset is 4 variables and 5647 records.
+
+# Transactions: The file contains the information about all transactions occur in the E-Commerce Retail Dataset.  It includes variables such as transaction_id, customer_id, transaction_id, prod_subcat_code, prod_cat_code, quantity, rate, tax, total_amount and store_type. The schema of the dataset is 10 variable and 23053 records.
+
+# Prod_cat_info: The file contains the information about the product availability in the E-Commerce Retail Dataset. It includes variables such as prod_cat_code, prod_cat, prod_sub_cat_code and prod_subcat. The schema of the dataset is 4 variables and 23 records.

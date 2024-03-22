@@ -128,7 +128,6 @@ According to the result 5 is the maximum quantity of products ever ordered.
 Methods used: 
 
 Filter -WHERE
-
 Self Join - INNER JOIN
 
 According to the result 46645675.505 is the net total revenue generated in categories Electronics and Books.
@@ -152,7 +151,24 @@ Filter - HAVING
 
 According to the result 13929 customers have >10 transactions with us excluding returns.
 
- 
 
+# Bussiness Objective(8): What is the combined revenue earned from the "Electronics "and "Clothing"categories from "Flagship store"?
+
+Bussiness solution
+
+Query:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/3e6620a2-34e3-4fec-b849-991466ca1fcc)
+
+ Result:
+
+ ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/7460c446-2a3f-444d-9e90-96a9eb08ac1f)
+
+Methods used: 
+
+Filter -WHERE
+Self Join - INNER JOIN
+
+According to the result 4349256.795 is the combined revenue earned from the "Electronics "and "Clothing"categories from "Flagship store".
 
 

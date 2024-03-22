@@ -97,7 +97,20 @@ Sorting clause - ORDER BY
 
 According to the result 6 sub_categories are there under the books category.
 
-# Bussiness Objective(5):
+# Bussiness Objective(5): What is the maximum quantity of products ever ordered?
+
+ Bussiness solution
+
+ Query:
+
+ ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/bd50093e-a45b-4704-ba7e-d9da179ad6ef)
+
+  Result:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/384daf08-885d-4678-8331-247213498f6a)
+
+
+According to the result 5 is the maximum quantity of products ever ordered.
 
  
 

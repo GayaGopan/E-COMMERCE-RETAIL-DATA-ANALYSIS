@@ -56,3 +56,23 @@ Query:
 
  According to the result the count of Male is 2892 and Female is 2753.
 
+ # Bussiness Objective(3):From which city do we have the maximum number of customers and how many?
+
+ Bussiness solution
+
+ Query:
+
+ ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/10bdddbe-96b4-46aa-9258-b3d28f4ba3f0)
+
+
+ Result:
+
+  ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/e8d9b539-a8f2-4426-b339-932f6a1da46c)
+
+
+Methods used: 
+
+  Filter -WHERE
+Sorting clause - ORDER BY
+
+ According to the result  city_code 10 have the maximum number of customers and it have  558 customers.

@@ -76,3 +76,28 @@ Methods used:
 Sorting clause - ORDER BY
 
  According to the result  city_code 10 have the maximum number of customers and it have  558 customers.
+
+ # Bussiness Objective(4): How many sub_categories are there under the books category?
+
+ Bussiness solution
+
+ Query:
+
+ ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/c11a06b9-230a-4c94-b610-bba6dcc372fc)
+
+
+ Result:
+
+ ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/c6bbb670-dab1-435e-89ae-ab4716ef60c9)
+
+Methods used: 
+
+Filter -WHERE
+Sorting clause - ORDER BY
+
+According to the result 6 sub_categories are there under the books category.
+
+# Bussiness Objective(5):
+
+ 
+

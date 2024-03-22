@@ -37,3 +37,22 @@ Filter -WHERE
 Sorting clause - ORDER BY
 
 According to the result most frequently used channel for Transactions is e_shop, 9311 customers are used it for their transactions.
+
+# Bussiness Objective(2): What is the count of Male and Female customers in the database?
+
+Bussiness solution
+
+Query:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/450a0dca-c6c5-49bf-81a9-dce0497d7a42)
+
+ Result:
+
+ ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/298ce5d7-10c9-486d-85b4-c4577d57a259)
+
+ Methods used: 
+
+ Sorting clause - ORDER BY
+
+ According to the result the count of Male is 2892 and Female is 2753.
+

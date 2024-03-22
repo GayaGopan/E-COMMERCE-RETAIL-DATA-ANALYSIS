@@ -6,7 +6,7 @@
 
 # Tools Used : SQL Server, SSMS
 
-# Datasets: Customers.xlsx,Transactions.xlsx,prod_cat_info.xlsx
+# Datasets: Customers.xlsx, Transactions.xlsx, prod_cat_info.xlsx
 
 # Customers:
 The file contains the information about customers in the E-Commerce Retail Dataset. It includes variables such as customer_id, DOB, Gender and city_code.The schema of the dataset is 4 variables and 5647 records.
@@ -16,3 +16,20 @@ The file contains the information about all transactions occur in the E-Commerce
 
 # Prod_cat_info:
 The file contains the information about the product availability in the E-Commerce Retail Dataset. It includes variables such as prod_cat_code, prod_cat, prod_sub_cat_code and prod_subcat. The schema of the dataset is 4 variables and 23 records.
+
+# Business Problems and Solutions:
+
+# Bussiness Objective(1): Which channel is most frequently used for Transactions?
+
+Bussiness solution
+
+Query:
+select  top 1 Store_type,count(*)as No_store_type from Transactions_new
+group by Store_type
+order by No_store_type desc;
+
+Methods used: Filter -WHERE
+              Sorting clause - ORDER BY
+Result:
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/733d20a9-69b5-45c9-b1ec-8300d8e6f18e)
+

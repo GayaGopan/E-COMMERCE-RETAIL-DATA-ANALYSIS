@@ -23,9 +23,17 @@ The file contains the information about the product availability in the E-Commer
 
 Bussiness solution
 
+Query:
+
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/208b44a8-f814-4b5b-8210-133257bab4f3)
 
  Result:
  
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/733d20a9-69b5-45c9-b1ec-8300d8e6f18e)
 
+Methods used: 
+
+Filter -WHERE
+Sorting clause - ORDER BY
+
+According to the result most frequently used channel for Transactions is e_shop, 9311 customers are used it for their transactions.

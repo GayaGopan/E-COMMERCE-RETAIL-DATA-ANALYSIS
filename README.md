@@ -73,7 +73,7 @@ Query:
 Methods used: 
 
   Filter -WHERE
-Sorting clause - ORDER BY
+  Sorting clause - ORDER BY
 
  According to the result  city_code 10 have the maximum number of customers and it have  558 customers.
 
@@ -113,4 +113,46 @@ According to the result 6 sub_categories are there under the books category.
 According to the result 5 is the maximum quantity of products ever ordered.
 
  
+# Bussiness Objective(6): What is the net total revenue generated in categories Electronics and Books?
+
+ Bussiness solution
+
+ Query:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/561aad40-e4f7-4d44-afd5-5aa91810058a)
+
+  Result:
+
+  ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/a6a02d66-6e27-434f-b671-4cb9e7e3d549)
+
+Methods used: 
+
+Filter -WHERE
+
+Self Join - INNER JOIN
+
+According to the result 46645675.505 is the net total revenue generated in categories Electronics and Books.
+
+
+# Bussiness Objective(7): How many customers have >10 transactions with us excluding returns?
+
+ Bussiness solution
+
+Query:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/0e287ac3-df1f-410c-8912-a530da75a4ae)
+
+ Result:
+
+ ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/6168bd5f-83c6-481e-ac88-34fe494ff545)
+
+Methods used: 
+
+Filter - HAVING
+
+According to the result 13929 customers have >10 transactions with us excluding returns.
+
+ 
+
+
 

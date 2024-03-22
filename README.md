@@ -24,9 +24,8 @@ The file contains the information about the product availability in the E-Commer
 Bussiness solution
 
 Query:
-select  top 1 Store_type,count(*)as No_store_type from Transactions_new
-group by Store_type
-order by No_store_type desc;
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/208b44a8-f814-4b5b-8210-133257bab4f3)
+
 
 Methods used: Filter -WHERE
               Sorting clause - ORDER BY

@@ -265,6 +265,11 @@ Result:
 
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/3eff0380-816c-4a1b-95f9-0b89ab134cf4)
 
+
+
+According to the result Books, Clothing, Electronics are the 3 categories for which average revenue is above the overall average.  In this objective inner Join is used for join the two table Transactons and Prod_cat_info. Having is used for filtering the data. Group by used for sorting the data.
+
+
 # Bussiness Objective(15): Find the average and total revenue by each subcategory for the categories which are among top 5 categories in terms of quantity sold?
 
 Bussiness solution

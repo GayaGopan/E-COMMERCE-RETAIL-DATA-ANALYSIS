@@ -164,13 +164,14 @@ Bussiness solution
 
 Query:
 
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/3e6620a2-34e3-4fec-b849-991466ca1fcc)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/6787acb4-60f0-43d5-9da4-5a42c362b18e)
 
  Result:
 
- ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/7460c446-2a3f-444d-9e90-96a9eb08ac1f)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/da3ee33b-5c4d-4685-8981-7b3e8c636d55)
 
-According to the result 4349256.795 is the combined revenue earned from the "Electronics "and "Clothing"categories from "Flagship store".
+ 
+According to the result 8526843.00000001 is the combined revenue earned from the "Electronics "and "Clothing"categories from "Flagship store".
 In this objective inner Join is used for join the two table Transactons and Prod_cat_info. Where is used for filtering the data.
 
 # Bussiness Objective(9): What is the total revenue generated from "Male" customers in "Electronic" category? Output should disply total revenue by prod sub_cat?
@@ -276,6 +277,24 @@ Bussiness solution
 
 Query:
 
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/98042f00-8b6d-4032-9254-3cb334eba03f)
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/1be0494d-6864-418c-a34a-ff32552fa221)
+
+Result:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/a4e5bc71-6c08-4cbe-a814-e1a39bbeb8d1)
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/351a52c3-91df-4358-b1fd-4239adddbd1c)
+
+According to the result we get the average and total revenue by each subcategory for the categories which are among top 5 categories.
+In this objective inner Join is used for join the two table Transactons and Prod_cat_info. Control flow function Case is used for finding the data. Where is used for filtering the data. Group by and Order by used for sorting the data.
+
+
+# Conclusion
+
+By exploring various aspects of the dataset, a comprehensive understanding of E-Commerce Retail area. The analysis shows the various aspects of customers and the trends.The analysis revealed the most popular products and the revenue of the products.Most frequently used channel for Transaction is e_shop and This information can assist other channel to improve their area and make customer choice .Home and kitchen product category has seen the maximum value of returns in the last 3 months of transactions and it shows the customers interest in this product. It increase the marketing and growth of the product.Analysis shows the growth in sales revenue over the past years.
+our e-commerce retail data analysis has provided valuable insights that can inform strategic decision-making and drive business growth. By these insights and recommendations, we are poised to enhance the customer experience, optimize marketing efforts, and maximize revenue potential
 
 
 

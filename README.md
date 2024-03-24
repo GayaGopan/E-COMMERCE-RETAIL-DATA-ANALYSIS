@@ -68,6 +68,8 @@ Query:
  
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/733d20a9-69b5-45c9-b1ec-8300d8e6f18e)
 
+According to the result most frequently used channel for Transaction is e_shop and 9311 customers are used the e_shop for their transactions.
+In this objective count function is used for counting the store_type. Group by and Order by are used for sorting the data.
 
 # Bussiness Objective(2): What is the count of Male and Female customers in the database?
 
@@ -81,6 +83,7 @@ Query:
 
  ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/298ce5d7-10c9-486d-85b4-c4577d57a259)
 
+According to the result 2753 female customers and 2892 male customers are in the database. In this objective count function is used for counting the male and female customers. Group by is used for sorting the data.
 
  # Bussiness Objective(3):From which city do we have the maximum number of customers and how many?
 
@@ -93,7 +96,9 @@ Query:
 
  Result:
 
-  ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/e8d9b539-a8f2-4426-b339-932f6a1da46c)
+ ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/e8d9b539-a8f2-4426-b339-932f6a1da46c)
+
+According to the result city code 10 have the maximum number of customers. There are 558 customers are in city code 10.In this objective count function is used for counting the customers. Group by and Order by are used for sorting the data.
 
  # Bussiness Objective(4): How many sub_categories are there under the books category?
 
@@ -108,6 +113,8 @@ Query:
 
  ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/c6bbb670-dab1-435e-89ae-ab4716ef60c9)
 
+According to the result 6 sub categories are there under the books category.They are Fiction, Academic, Non-Fiction, Children, Comics and DIY. In this objective Where is used for filtering the data and Order by is used for sorting the data.
+
 
 # Bussiness Objective(5): What is the maximum quantity of products ever ordered?
 
@@ -121,6 +128,8 @@ Query:
 
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/c8a24230-5610-43ee-8c45-ed2761e15323)
 
+According to the result 153 products are the maximum quantity ever ordered.  In this objective count is used for counting the product categories. Inner Join is used for join the two table Transactons and Prod_cat_info.  Group by and Order by are used for sorting the data.
+
 # Bussiness Objective(6): What is the net total revenue generated in categories Electronics and Books?
 
  Bussiness solution
@@ -129,20 +138,25 @@ Query:
 
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/561aad40-e4f7-4d44-afd5-5aa91810058a)
 
-  Result:
+ Result:
 
-  ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/a6a02d66-6e27-434f-b671-4cb9e7e3d549)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/a6a02d66-6e27-434f-b671-4cb9e7e3d549)
+
+According to the result the net total revenue generated in categories Electronics and Books are 46645675.505. In this objective Sum is used for find the net total revenue. Inner Join is used for join the two table Transactons and Prod_cat_info. Where is used for filter the data.
 
 # Bussiness Objective(7): How many customers have >10 transactions with us excluding returns?
 
  Bussiness solution
 
 Query:
+
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/23b157f2-1ddb-4604-986b-ba7c06759202)
 
  Result:
 
  ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/f762cbd8-daa9-46fa-be1f-d0ae216ff18a)
+
+According to the result 6 customers have >10 transactions with us excluding returns. In this objective CTEs are used for finding the solution. 
 
 # Bussiness Objective(8): What is the combined revenue earned from the "Electronics "and "Clothing"categories from "Flagship store"?
 
@@ -156,6 +170,8 @@ Query:
 
  ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/7460c446-2a3f-444d-9e90-96a9eb08ac1f)
 
+According to the result 4349256.795 is the combined revenue earned from the "Electronics "and "Clothing"categories from "Flagship store".
+In this objective  Join is used for join the two table Transactons and Prod_cat_info. Where is used for filtering the data.
 
 # Bussiness Objective(9): What is the total revenue generated from "Male" customers in "Electronic" category? Output should disply total revenue by prod sub_cat?
 

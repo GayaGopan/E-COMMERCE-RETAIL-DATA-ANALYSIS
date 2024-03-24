@@ -293,8 +293,9 @@ In this objective inner Join is used for join the two table Transactons and Prod
 
 # Conclusion
 
-By exploring various aspects of the dataset, a comprehensive understanding of E-Commerce Retail area. The analysis shows the various aspects of customers and the trends.The analysis revealed the most popular products and the revenue of the products.Most frequently used channel for Transaction is e_shop and This information can assist other channel to improve their area and make customer choice .Home and kitchen product category has seen the maximum value of returns in the last 3 months of transactions and it shows the customers interest in this product. It increase the marketing and growth of the product.Analysis shows the growth in sales revenue over the past years.
-our e-commerce retail data analysis has provided valuable insights that can inform strategic decision-making and drive business growth. By these insights and recommendations, we are poised to enhance the customer experience, optimize marketing efforts, and maximize revenue potential
+By exploring various aspects of the dataset, a comprehensive understanding of E-Commerce Retail area. The analysis shows the various aspects of customers and the trends.The analysis revealed the most popular products and the revenue of the products. Most frequently used channel for Transaction is e_shop and This information can assist other channel to improve their area and make customer choice.
+Home and kitchen product category has seen the maximum value of returns in the last 3 months of transactions and it shows the customers interest in this product. It increase the marketing and growth of the product.Analysis shows the growth in sales revenue over the past years.
+our e-commerce retail data analysis has provided valuable insights that can inform strategic decision-making and drive business growth. By these insights and recommendations, we are poised to enhance the customer experience, optimize marketing efforts, and maximize revenue potential.
 
 
 

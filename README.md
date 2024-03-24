@@ -17,6 +17,43 @@ The file contains the information about all transactions occur in the E-Commerce
 # Prod_cat_info:
 The file contains the information about the product availability in the E-Commerce Retail Dataset. It includes variables such as prod_cat_code, prod_cat, prod_sub_cat_code and prod_subcat. The schema of the dataset is 4 variables and 23 records.
 
+# DATA PREPARATION AND UNDERSTANDING
+
+(1) The Total number of rows in each table.
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/edeb68c1-87db-4093-8db7-d5f25ad58893)
+
+Result:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/28316717-40ec-4054-bbf0-6c59b1b63f0d)
+
+(2) Number of transactions that have a return. 
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/d4c8eec4-727a-4901-b34a-5c57141a8551)
+
+Result:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/7ad19832-1c4a-4cbf-8ba5-5f4355414abb)
+
+(3) Time range of the transaction data available for analysis.
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/02d68f57-4421-400d-a6e1-9c4cab3f5960)
+
+Result:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/b4765b5c-d3e3-4f91-8be7-801d00266ff5)
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/7e99f6f5-46e2-420b-9703-bcc32f992003)
+
+(4) The product category does the sub-category DIY belong to.
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/6b6327b0-cdee-4d5e-950f-62be458104b4)
+
+Result:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/76487465-8f4a-4643-af91-4f59d49fde0b)
+
+
 # Business Problems and Solutions:
 
 # Bussiness Objective(1): Which channel is most frequently used for Transactions?
@@ -31,12 +68,6 @@ Query:
  
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/733d20a9-69b5-45c9-b1ec-8300d8e6f18e)
 
-Methods used: 
-
-Filter -WHERE
-Sorting clause - GROUP BY, ORDER BY
-
-According to the result most frequently used channel for Transactions is e_shop, 9311 customers are used it for their transactions.
 
 # Bussiness Objective(2): What is the count of Male and Female customers in the database?
 
@@ -50,11 +81,6 @@ Query:
 
  ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/298ce5d7-10c9-486d-85b4-c4577d57a259)
 
- Methods used: 
-
- Sorting clause - GROUP BY
-
- According to the result the count of Male is 2892 and Female is 2753.
 
  # Bussiness Objective(3):From which city do we have the maximum number of customers and how many?
 
@@ -69,14 +95,6 @@ Query:
 
   ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/e8d9b539-a8f2-4426-b339-932f6a1da46c)
 
-
-Methods used: 
-
-  Filter -WHERE
-  Sorting clause -   GROUP BY, ORDER BY
-
- According to the result  city_code 10 have the maximum number of customers and it have  558 customers.
-
  # Bussiness Objective(4): How many sub_categories are there under the books category?
 
  Bussiness solution
@@ -90,12 +108,6 @@ Methods used:
 
  ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/c6bbb670-dab1-435e-89ae-ab4716ef60c9)
 
-Methods used: 
-
-Filter -WHERE
-Sorting clause - ORDER BY
-
-According to the result 6 sub_categories are there under the books category.
 
 # Bussiness Objective(5): What is the maximum quantity of products ever ordered?
 
@@ -103,16 +115,12 @@ According to the result 6 sub_categories are there under the books category.
 
  Query:
 
- ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/bd50093e-a45b-4704-ba7e-d9da179ad6ef)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/4f197e06-e786-4d65-8508-5ee7e8a9b108)
 
   Result:
 
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/384daf08-885d-4678-8331-247213498f6a)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/c8a24230-5610-43ee-8c45-ed2761e15323)
 
-
-According to the result 5 is the maximum quantity of products ever ordered.
-
- 
 # Bussiness Objective(6): What is the net total revenue generated in categories Electronics and Books?
 
  Bussiness solution
@@ -125,32 +133,16 @@ According to the result 5 is the maximum quantity of products ever ordered.
 
   ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/a6a02d66-6e27-434f-b671-4cb9e7e3d549)
 
-Methods used: 
-
-Filter -WHERE
-Self Join - INNER JOIN
-
-According to the result 46645675.505 is the net total revenue generated in categories Electronics and Books.
-
-
 # Bussiness Objective(7): How many customers have >10 transactions with us excluding returns?
 
  Bussiness solution
 
 Query:
-
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/0e287ac3-df1f-410c-8912-a530da75a4ae)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/23b157f2-1ddb-4604-986b-ba7c06759202)
 
  Result:
 
- ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/6168bd5f-83c6-481e-ac88-34fe494ff545)
-
-Methods used: 
-
-Filter - HAVING
-
-According to the result 13929 customers have >10 transactions with us excluding returns.
-
+ ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/f762cbd8-daa9-46fa-be1f-d0ae216ff18a)
 
 # Bussiness Objective(8): What is the combined revenue earned from the "Electronics "and "Clothing"categories from "Flagship store"?
 
@@ -164,13 +156,6 @@ Query:
 
  ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/7460c446-2a3f-444d-9e90-96a9eb08ac1f)
 
-Methods used: 
-
-Filter -WHERE
-Self Join - INNER JOIN
-
-According to the result 4349256.795 is the combined revenue earned from the "Electronics "and "Clothing"categories from "Flagship store".
-
 
 # Bussiness Objective(9): What is the total revenue generated from "Male" customers in "Electronic" category? Output should disply total revenue by prod sub_cat?
 
@@ -178,18 +163,13 @@ Bussiness solution
 
 Query:
 
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/9690cf40-0aeb-4f4e-a359-db8916ba5de4)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/83b21054-2f96-4b8e-afca-328afb0a5e70)
+
 
 Result:
 
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/7f6c421d-f408-484b-b392-5dbb5b29834a)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/f996944d-86e5-42b1-8290-f7ced88b6e87)
 
-Methods used: 
-
-Filter -WHERE
-Self Join - INNER JOIN
-
-According to the result 5703109.42500002 is the total revenue generated from "Male" customers in "Electronic" category.
 
 # Bussiness Objective(10): What is percentage of sale and returns by product sub category;display only top 5 sub categories in terms of sales?
 
@@ -203,17 +183,67 @@ Result:
 
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/9f15045e-ec37-492a-a02e-e36ae0d10405)
 
-Methods used:
-
-Self Join - INNER JOIN
-Filter -WHERE
-Sorting clause -  GROUP BY, ORDER BY
-
-According to the result top 1 product sub category is  Women and the  percentage of sale and returns are 7020079.365. Top 2 product sub category is Mens and  the  percentage of sale and returns are 6905869.88. Top 3 product sub category is Kids and the  percentage of sale and returns are 4806698.065.Top 4 product sub category is Mobiles and  the  percentage of sale and returns are 2508648.35.Top 5 product sub category is Fiction  and  the  percentage of sale and returns are 2492900.995.
 
 # Bussiness Objective(11): For all customers age between 25 to 35 years find what is the net total revenue generated by these customers in the last 30 days of transactions from max transaction date available in the data?
 
 Bussiness solution
 
 Query:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/179df5c2-b6e2-40a6-9ab9-5d6bcd1a34c1)
+
+Result:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/23025cc1-9519-4c0c-bdaa-b1524907199c)
+
+# Bussiness Objective(12): Which product category has seen the maximum value of returns in the last 3 months of transactions?
+
+Bussiness solution
+
+Query:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/368b1526-9b18-4c26-9b61-c1fd7c210bf9)
+
+Result:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/24a7f1ca-3f30-446d-b2f9-763b364851f8)
+
+# Bussiness Objective(13): Which store_type sells the maximum products; by value of sales amount and by quantity sold?
+
+Bussiness solution
+
+Query:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/fe18bda3-c769-4594-a9b8-0c608c2fd17f)
+
+Result:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/e435ea52-e4b8-444f-9396-295793fabafc)
+
+# Bussiness Objective(14): What are the categories for which average revenue is above the overall average?
+
+Bussiness solution
+
+Query:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/0cf614a1-74d1-421b-b3ba-6926a7cf8eed)
+
+Result:
+
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/3eff0380-816c-4a1b-95f9-0b89ab134cf4)
+
+# Bussiness Objective(15): Find the average and total revenue by each subcategory for the categories which are among top 5 categories in terms of quantity sold?
+
+Bussiness solution
+
+Query:
+
+
+
+
+
+
+
+
+
 

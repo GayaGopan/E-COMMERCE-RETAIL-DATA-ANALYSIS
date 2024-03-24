@@ -186,6 +186,7 @@ Result:
 
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/f996944d-86e5-42b1-8290-f7ced88b6e87)
 
+According to the result 
 
 # Bussiness Objective(10): What is percentage of sale and returns by product sub category;display only top 5 sub categories in terms of sales?
 

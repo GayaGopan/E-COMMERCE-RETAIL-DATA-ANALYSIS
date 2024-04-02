@@ -91,14 +91,15 @@ According to the result 2753 female customers and 2892 male customers are in the
 
  Query:
 
- ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/10bdddbe-96b4-46aa-9258-b3d28f4ba3f0)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/e83bd174-5e77-450c-b9cc-c972d529413a)
 
 
  Result:
 
- ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/e8d9b539-a8f2-4426-b339-932f6a1da46c)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/d543865c-6369-41be-97bf-d5928a920f2a)
 
-According to the result city code 10 have the maximum number of customers. There are 558 customers are in city code 10.In this objective count function is used for counting the customers. Group by and Order by are used for sorting the data.
+
+According to the result city code 10 have the maximum number of customers. There are 558 customers are in city code 3.In this objective count function is used for counting the customers. Group by and Order by are used for sorting the data.
 
  # Bussiness Objective(4): How many sub_categories are there under the books category?
 
@@ -122,11 +123,12 @@ According to the result 6 sub categories are there under the books category.They
 
  Query:
 
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/4f197e06-e786-4d65-8508-5ee7e8a9b108)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/7f0f89ee-5e93-4c16-8dc8-7986de780011)
+
 
   Result:
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/d4707c12-cb66-4d8f-968f-fcd6a9b0ac6b)
 
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/c8a24230-5610-43ee-8c45-ed2761e15323)
 
 According to the result 153 products are the maximum quantity ever ordered.  In this objective count is used for counting the product categories. Inner Join is used for join the two table Transactons and Prod_cat_info.  Group by and Order by are used for sorting the data.
 
@@ -136,11 +138,13 @@ According to the result 153 products are the maximum quantity ever ordered.  In 
 
  Query:
 
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/561aad40-e4f7-4d44-afd5-5aa91810058a)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/084f6255-45c2-47a4-b268-fdfd08eb7f57)
+
 
  Result:
 
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/a6a02d66-6e27-434f-b671-4cb9e7e3d549)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/a6ee80af-9d81-444b-b611-455c6b69cf0e)
+
 
 According to the result the net total revenue generated in categories Electronics and Books are 46645675.505. In this objective Sum is used for find the net total revenue. Inner Join is used for join the two table Transactons and Prod_cat_info. Where is used for filter the data.
 
@@ -164,11 +168,12 @@ Bussiness solution
 
 Query:
 
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/6787acb4-60f0-43d5-9da4-5a42c362b18e)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/b3959f3c-2ea9-4547-867c-16a0fa1890be)
+
 
  Result:
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/05bb2218-1988-40eb-ac86-52b780bf457c)
 
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/da3ee33b-5c4d-4685-8981-7b3e8c636d55)
 
  
 According to the result 8526843.00000001 is the combined revenue earned from the "Electronics "and "Clothing"categories from "Flagship store".
@@ -232,11 +237,13 @@ Bussiness solution
 
 Query:
 
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/368b1526-9b18-4c26-9b61-c1fd7c210bf9)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/0a27203c-d742-40dc-81be-d4a38e986e9d)
+
 
 Result:
 
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/24a7f1ca-3f30-446d-b2f9-763b364851f8)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/6f1c85ea-976d-4447-9d94-9e25d9dbf7b3)
+
 
 According to the result Home and kitchen has seen the maximum value of returns in the last 3 months of transactions. In this objective inner Join is used for join the two table Transactons and Prod_cat_info. Where is used for filtering the data. Group by used for sorting the data.
 
@@ -260,7 +267,8 @@ Bussiness solution
 
 Query:
 
-![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/0cf614a1-74d1-421b-b3ba-6926a7cf8eed)
+![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/fd4b5589-bff2-46b2-8edd-8e5c19151507)
+
 
 Result:
 

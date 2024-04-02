@@ -69,7 +69,7 @@ Query:
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/733d20a9-69b5-45c9-b1ec-8300d8e6f18e)
 
 According to the result most frequently used channel for Transaction is e_shop and 9311 customers are used the e_shop for their transactions.
-In this objective count function is used for counting the store_type. Group by and Order by are used for sorting the data.
+In this objective count function is used for counting the store_type. Group by and Order by are used for sorting the data. The query identified the store type with the highest number of transactions, providing valuable insights into customer preferences and channel effectiveness.
 
 # Bussiness Objective(2): What is the count of Male and Female customers in the database?
 
@@ -83,7 +83,7 @@ Query:
 
  ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/298ce5d7-10c9-486d-85b4-c4577d57a259)
 
-According to the result 2753 female customers and 2892 male customers are in the database. In this objective count function is used for counting the male and female customers. Group by is used for sorting the data.
+According to the result 2753 female customers and 2892 male customers are in the database. In this objective count function is used for counting the male and female customers. Group by is used for sorting the data. The query grouped customers by gender and counted the number of occurrences for each gender category. Understanding the gender distribution can help the retail store tailor its product offerings, advertising campaigns, and customer engagement initiatives to better resonate with different customer segments, ultimately driving sales and enhancing customer satisfaction.
 
  # Bussiness Objective(3):From which city do we have the maximum number of customers and how many?
 
@@ -99,7 +99,7 @@ According to the result 2753 female customers and 2892 male customers are in the
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/d543865c-6369-41be-97bf-d5928a920f2a)
 
 
-According to the result city code 10 have the maximum number of customers. There are 558 customers are in city code 3.In this objective count function is used for counting the customers. Group by and Order by are used for sorting the data.
+According to the result city code 3 have the maximum number of customers. There are 595 customers are in city code 3.In this objective count function is used for counting the customers. Group by and Order by are used for sorting the data.It focus marketing efforts, tailor promotions, and optimize inventory to meet the demands of the most populated city.
 
  # Bussiness Objective(4): How many sub_categories are there under the books category?
 
@@ -130,7 +130,7 @@ According to the result 6 sub categories are there under the books category.They
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/d4707c12-cb66-4d8f-968f-fcd6a9b0ac6b)
 
 
-According to the result 153 products are the maximum quantity ever ordered.  In this objective count is used for counting the product categories. Inner Join is used for join the two table Transactons and Prod_cat_info.  Group by and Order by are used for sorting the data.
+According to the result it provides insights into the distribution of product categories based on the quantity of transactions. This analysis aids in understanding purchasing patterns and helps optimize inventory for different product categories to enhance sales and customer satisfaction..  In this objective count is used for counting the product categories. Inner Join is used for join the two table Transactons and Prod_cat_info.  Group by and Order by are used for sorting the data.
 
 # Bussiness Objective(6): What is the net total revenue generated in categories Electronics and Books?
 
@@ -146,7 +146,7 @@ According to the result 153 products are the maximum quantity ever ordered.  In 
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/a6ee80af-9d81-444b-b611-455c6b69cf0e)
 
 
-According to the result the net total revenue generated in categories Electronics and Books are 46645675.505. In this objective Sum is used for find the net total revenue. Inner Join is used for join the two table Transactons and Prod_cat_info. Where is used for filter the data.
+According to the result the net total revenue generated in categories Electronics and Books are 23545157.6749999. In this objective Sum is used for find the net total revenue. Inner Join is used for join the two table Transactons and Prod_cat_info. Where is used for filter the data. This analysis assists in evaluating the performance of 'electronics' and 'books' segments and guiding targeted marketing and inventory strategies to optimize sales and profitability.
 
 # Bussiness Objective(7): How many customers have >10 transactions with us excluding returns?
 
@@ -160,7 +160,7 @@ Query:
 
  ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/f762cbd8-daa9-46fa-be1f-d0ae216ff18a)
 
-According to the result 6 customers have >10 transactions with us excluding returns. In this objective CTEs are used for finding the solution. 
+According to the result 6 customers have  more than 10 transactions with us excluding returns. In this objective CTEs are used for finding the solution.This analysis provides insights into customer behavior and purchasing frequency, aiding in customer segmentation and targeted marketing.
 
 # Bussiness Objective(8): What is the combined revenue earned from the "Electronics "and "Clothing"categories from "Flagship store"?
 
@@ -176,8 +176,8 @@ Query:
 
 
  
-According to the result 8526843.00000001 is the combined revenue earned from the "Electronics "and "Clothing"categories from "Flagship store".
-In this objective inner Join is used for join the two table Transactons and Prod_cat_info. Where is used for filtering the data.
+According to the result 3409559.27000001 is the combined revenue earned from the "Electronics "and "Clothing"categories from "Flagship store".
+In this objective inner Join is used for join the two table Transactons and Prod_cat_info. Where is used for filtering the data.This analysis assists in evaluating the performance of specific product categories at flagship locations, guiding inventory management and promotional strategies to optimize sales and profitability.
 
 # Bussiness Objective(9): What is the total revenue generated from "Male" customers in "Electronic" category? Output should disply total revenue by prod sub_cat?
 
@@ -193,7 +193,7 @@ Result:
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/594fbf67-9913-430d-868e-a73de0e28ad2)
 
 
-According to the result 10947130.025  is the total revenue generated from "Male" customers in "Electronic" and total revenue by prod sub categories such us Personal Appliances, Mobiles, Computers, Audio and video and Camera of each category is 5703109.42500002.  In this objective Sum is used for find the total revenue. Inner Join is used for join the two table Transactons and Customers. Where is used for filter the data.
+According to the result 10947130.025  is the total revenue generated from "Male" customers in "Electronic" and total revenue by prod sub categories such us Personal Appliances, Mobiles, Computers, Audio and video and Camera of each category is 5703109.42500002.  In this objective Sum is used for find the total revenue. Inner Join is used for join the two table Transactons and Customers. Where is used for filter the data.This analysis helps in understanding male purchasing behavior in the electronics category, guiding targeted marketing campaigns and inventory strategies to cater to this specific customer segment and optimize sales.
 
 # Bussiness Objective(10): What is percentage of sale and returns by product sub category;display only top 5 sub categories in terms of sales?
 
@@ -214,7 +214,7 @@ Result:
 
 
 According to the result  we get top 5 percentage of sale and returns by product sub category such as Women, Mens, Comics, Children and Academic. In this objective CTEs are used for finding the solution. inner Join is used for join the two table Transactons and Prod_cat_info. Where is used for filtering the data. Group by and Order by are used for sorting the data.
-
+This analysis offers insights into the best-performing product subcategories, guiding inventory management, marketing strategies, and product promotions to optimize sales and enhance profitability
 
 # Bussiness Objective(11): For all customers age between 25 to 35 years find what is the net total revenue generated by these customers in the last 30 days of transactions from max transaction date available in the data?
 
@@ -228,7 +228,7 @@ Result:
 
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/23025cc1-9519-4c0c-bdaa-b1524907199c)
 
-According to the result  the net total revenue generated by customers age between 25 to 35 years are 211997.565.  In this objective CTEs are used for finding the solution. inner Join is used for join the two table Transactons and Customers. Where is used for filtering the data. Group by and Order by are used for sorting the data.
+According to the result  the net total revenue generated by customers age between 25 to 35 years are 211997.565.  In this objective CTEs are used for finding the solution. inner Join is used for join the two table Transactons and Customers. Where is used for filtering the data. Group by and Order by are used for sorting the data. This analysis assists in understanding the spending behavior of young to middle-aged customers, guiding targeted marketing and promotional strategies to optimize sales and customer engagement.
 
 
 # Bussiness Objective(12): Which product category has seen the maximum value of returns in the last 3 months of transactions?
@@ -245,7 +245,7 @@ Result:
 ![image](https://github.com/GayaGopan/E-COMMERCE-RETAIL-DATA-ANALYSIS/assets/164141178/6f1c85ea-976d-4447-9d94-9e25d9dbf7b3)
 
 
-According to the result Home and kitchen has seen the maximum value of returns in the last 3 months of transactions. In this objective inner Join is used for join the two table Transactons and Prod_cat_info. Where is used for filtering the data. Group by used for sorting the data.
+According to the result Home and kitchen has seen the maximum value of returns in the last 3 months of transactions. In this objective inner Join is used for join the two table Transactons and Prod_cat_info. Where is used for filtering the data. Group by used for sorting the data.This analysis provides insights into return rates for different product categories during the specified period, helping to identify potential issues with product quality, customer satisfaction, or inventory management that may require attention and optimization strategies to reduce returns and enhance profitability.
 
 # Bussiness Objective(13): Which store_type sells the maximum products; by value of sales amount and by quantity sold?
 
@@ -276,7 +276,7 @@ Result:
 
 
 
-According to the result Books, Clothing, Electronics are the 3 categories for which average revenue is above the overall average.  In this objective inner Join is used for join the two table Transactons and Prod_cat_info. Having is used for filtering the data. Group by used for sorting the data.
+According to the result Books, Clothing, Electronics are the 3 categories for which average revenue is above the overall average.  In this objective inner Join is used for join the two table Transactons and Prod_cat_info. Having is used for filtering the data. Group by used for sorting the data. This analysis identifies product categories that perform above the average, providing insights to focus on high-performing categories for inventory management, marketing strategies, and promotional activities to optimize sales and profitability.
 
 
 # Bussiness Objective(15): Find the average and total revenue by each subcategory for the categories which are among top 5 categories in terms of quantity sold?

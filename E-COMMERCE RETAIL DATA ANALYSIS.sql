@@ -125,7 +125,7 @@ exec sp_rename '[dbo].[Customers_new]','customers_new'
    inner join customers_new as C
    on T.cust_id = C.customer_Id
    inner join prod_cat_info as P 
-   on P.prod_sub_cat_code = T.prod_subcat_code and 
+   on P.prod_sub_cat_code = T.prod_subcat_code and T.prod_cat_code = P.prod_cat_code
    where gender = 'M' and prod_cat = 'Electronics'
 
    select prod_subcat,sum(total_amt) as Amount_ME from Transactions_new as T
